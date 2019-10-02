@@ -1,5 +1,5 @@
 # Predicting The Costs Of Used Cars Hackathon By Imarticus
-This repo contains the solution for ML hackathon (Predicting The Costs Of Used Cars ) by Imarticus. The solution ranks at no. 64 on the leaderboard with a score of 0.935173
+This repo contains the solution for ML hackathon (Predicting The Costs Of Used Cars) by Imarticus. The solution ranks at no. 64 on the leaderboard with a score of 0.935173.
 
 ![img](https://imgur.com/mtCJsgu.png)
 
@@ -14,7 +14,7 @@ It's a standard regression problem of predicting the prices of old car. The impu
 
 Also some columns that were categorical had high cardinality so encoding them was difficult. The use of *target encoding (with smoothing to prevent overfitting)* gave a boost in the score.
 
-I tried many models : tree based models , regularized linear regression model and artificial neural network. Well tuned Lightgbm performed the best for me.
+I tried many models : tree based models , regularized linear regression model and artificial neural network. Well tuned LightGBM(Gradient boosting machine) performed the best for me.
 
 ## Scripts
 - data_clean.py : contains the initial data cleaning parts (imputing the null values).
